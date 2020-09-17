@@ -1,0 +1,43 @@
+{
+  "name": "acc-cms-08-20-dgho-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/rmh-clm-development/acc-cms-08-20-dgho-landingpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/rmh-clm-development/acc-cms-08-20-dgho-landingpage#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "chokidar": "^3.4.2",
+    "fsevents": "^2.1.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "postcss": "^8.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.0",
+    "css-loader": "^4.3.0",
+    "exports-loader": "^1.1.0",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "mini-css-extract-plugin": "^0.11.2",
+    "node-sass": "^4.14.1",
+    "postcss-loader": "^4.0.2",
+    "sass": "^1.22.10",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
